@@ -6,6 +6,17 @@ import './App.css';
 
 class App extends Component{
 
+  constructor(props) {
+    super(props)
+    setState = {
+      numTiles: 36,
+      playing: false,
+      previousTileIndex: null,
+      tiles: [],
+      toBeCleared: null
+    }
+  }
+
   render() {
   return (
     <div className="App">
