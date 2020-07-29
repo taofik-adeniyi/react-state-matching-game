@@ -18,6 +18,10 @@ class App extends Component{
     }
   }
 
+  handleTileClicked(id, color) {
+
+  }
+
   startGame = (numTiles) => {
     this.setState((state) => ({
       playing: true,
