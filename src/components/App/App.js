@@ -22,7 +22,7 @@ class App extends Component{
     this.setState((state) => {
       const tiles = state.tiles
       let toBeCleared = state.toBeCleared
-      const selectedTileIndex = indexofSelected(tiles, id, color)
+      const selectedTileIndex = indexOfSelected(tiles, id, color)
       let previousTileIndex = state.previousTileIndex
 
       if(toBeCleared !== null) {
