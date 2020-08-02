@@ -10,7 +10,7 @@ const TileSelector = (props) => {
         <div className='tileSelectorContent' >
           <div className='number' onClick={() => props.handleNumTileChange(4)} >4</div>
           <div className='number' onClick={() => props.handleNumTileChange(16)} >16</div>
-          <div className='number' onClick={() => props.handleNumTileChange(32)} >36</div>
+          <div className='number' onClick={() => props.handleNumTileChange(36)} >36</div>
         </div>
   ) : null
 
